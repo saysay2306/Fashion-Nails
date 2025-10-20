@@ -36,18 +36,11 @@
     </nav>
 
     <form
-      action="funçoes.php?tp=cadastro"
+      action="funçoes.php?tp=login"
       method="post"
-      class="d-flex container flex-column gap-3 justify-content-center align-items-center vh-100"
+      class="d-flex container  flex-column gap-3 justify-content-center align-items-center vh-100"
     >
-      <h1>Preenche todas as informações!</h1>
-      <input
-        type="text"
-        name="nome"
-        id=""
-        class="form-control w-50"
-        placeholder="Digite seu nome..."
-      >
+      <h1>Login</h1>
       <input
         type="email"
         name="email"
@@ -56,25 +49,18 @@
         placeholder="Digite seu email..."
       >
       <input
-        type="password"
+        type="passworld"
         name="senha"
         id=""
         class="form-control w-50"
         placeholder="Digite sua senha..."
       >
       <input
-        type="password"
-        name="confirmarsenha"
-        id=""
-        class="form-control w-50"
-        placeholder="Confirme sua senha..."
-      >
-      <input
         type="submit"
         class="btn btn-primary btn-lg"
-        value="Cadastrar"
+        value="logar"
       >
-      <p>já tem uma conta? <a href="login.php">logue aqui</a></p>
+      <p>não tem uma conta? <a href="cadastro.php">cadastre-se aqui</a></p>
     </form>
 
     <footer class="fixed-bottom roxo">
